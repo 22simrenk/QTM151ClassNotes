@@ -9,7 +9,7 @@ Add a comment with your Emory ID below
 (just add your name as an SQL comment, <br>
 do not use print())
 -- SQLBook: Code
--- Active: 1710903290079@@127.0.0.1@5432@postgres
+-- Active: 1710939199201@@127.0.0.1@5432@postgres
 -- Write your own code
 --Emory Id: 2554238
 # Instructor Copy
@@ -100,7 +100,7 @@ alies, e.g. ``` ... AS ... ```
 SELECT
     COUNT(DISTINCT nationality) AS num_nationalities,
     COUNT(*) AS num_rows
-FROM homework_data
+FROM homework_data;
 
 -- SQLBook: Markup
 <font size = "5">
